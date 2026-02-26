@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Matrícula - Fish Academy</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html" class="brand">🐟 Fish Academy</a>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="planos.html">Planos</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero ocean">
+      <h2>Matrícula</h2>
+      <p>Preencha seus dados para efetivar a matrícula.</p>
+    </section>
+
+    <section style="padding:12px;">
+      <div style="max-width:800px;margin:0 auto;">
+        <form id="matricula-form" aria-label="Formulário de matrícula">
+          <label>Nome do peixe</label>
+          <input type="text" name="nome" placeholder="Nome do peixe..." />
+
+          <label>Email do responsável</label>
+          <input type="email" name="email" placeholder="responsavel@exemplo.com" />
+
+          <label>Plano</label>
+          <select name="plano">
+            <option>Plâncton Starter</option>
+            <option>Correnteza Pro</option>
+            <option>Sincronizado Elite</option>
+          </select>
+
+          <label>Observações</label>
+          <textarea name="obs" placeholder="Informações adicionais..."></textarea>
+
+          <button class="btn-primary" type="submit">Enviar Matrícula</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Fish Academy 🐠</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
