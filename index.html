@@ -7,17 +7,21 @@
 </head>
 <body>
   <header>
-    <h1>🐟 Fish Academy</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="sobre.html">Sobre</a>
-      <a href="planos.html">Planos</a>
-      <a href="contato.html">Contato</a>
-    </nav>
+    <div class="container">
+      <a href="index.html" class="brand">🐟 Fish Academy</a>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="planos.html">Planos</a>
+        <a href="contato.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+      </nav>
+      <button class="cta" onclick="location.href='matricula.html?plano=Pl%C3%A2ncton%20Starter'">Matricule</button>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
+  <main class="container">
+    <section class="hero ocean">
+      <img src="assets/images/fish-academy.jpg" alt="Fish Academy banner" class="hero-banner" />
       <h2>Escola de Natação para Peixes</h2>
       <p>Aprenda a nadar com estilo, segurança e diversão!</p>
       <button onclick="irParaPlanos()">Ver Planos</button>
