@@ -44,6 +44,8 @@ Desenvolver um site moderno, responsivo e interativo para:
 ---
 
 ## 🏗️ Estrutura do Projeto
+
+```
 fish-academy/
 │
 ├── index.html
@@ -60,6 +62,7 @@ fish-academy/
 └── assets/
 ├── images/
 └── icons/
+```
 
 ---
 
